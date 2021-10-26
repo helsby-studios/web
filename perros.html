@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<title>Webshort</title>
-<link rel="icon" href="Logo.png" type="image/png">
+<title>PerrOS</title>
+<link rel="icon" href="perros-Logo.png" type="image/png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,10 +15,9 @@ body, html {
   line-height: 1.8;
 }
 
-
-/* First image (Logo. Full height) */
+/* First image (perros-Logo. Full height) */
 .bgimg-1 {
-  background-color:#269;
+  background-color:#68b38c;
   background-image: linear-gradient(white 2px, transparent 2px),
   linear-gradient(90deg, white 2px, transparent 2px),
   linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
@@ -30,7 +29,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-color:#269;
+  background-color:#68b38c;
   background-image: linear-gradient(white 2px, transparent 2px),
   linear-gradient(90deg, white 2px, transparent 2px),
   linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
@@ -42,7 +41,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-color:#269;
+  background-color:#68b38c;
   background-image: linear-gradient(white 2px, transparent 2px),
   linear-gradient(90deg, white 2px, transparent 2px),
   linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
@@ -55,43 +54,46 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-
 </style>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+  <div class="w3-bar w3-card w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#SERVICES" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SERVICES</a>
+    <a href="#get-your-own" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GET YOUR OWN</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="perros.html" class="w3-bar-item w3-button"><i class="fa fa-cube"></i> PerrOS</a>
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- First Parallax Image with perros-Logo Text -->
 <div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <img src="Logo-trans.png" style="width:500px;height:500px;">
+    <img src="perros-Logo-trans.png" style="width:500px;height:500px;">
   </div>
 </div>
 
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT WEBSHORT</h3>
-  <p class="w3-center"><em>We love servers!</em></p>
+  <h3 class="w3-center">ABOUT PERROS</h3>
+  <p class="w3-center"><em>The OS for your Discord server</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="Logo-trans.png" class="w3-round w3-image" width="500" height="333">
+      <img src="perros-Logo-trans.png" class="w3-round w3-image" width="500" height="333">
     </div>
     <div class="w3-col m6 w3-padding-large">
-        <p>Welcome to Webshort,</p>
-        <p>a small company that is focused on open-source and a good user expirience without being annoying, just simply getting things done!</p>
-        <p>Dont forget, were over 90% opensource, so check out or Github!</p>
-        <p><a href="https://github.com/webshort/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>Github</a></p>
-        <h2>Keep life simple use Webshort</h2>
+        <p>Welcome to PerrOS,</p>
+        <p>a Discord Bot, free and opensource to do all at once and without Spying.</p>
+        <p>Hop over to our discord to install it and get your Good Boy today for Free!</p>
+        <p>Why are you still here?</p>
+        <p>Fine, here is your link!</p>
+        <p><a href="https://github.com/webshort/perros"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>Github</a></p>
+        <h2>PerrOS - A Good Boy</h2>
     </div>
 
   </div>
@@ -101,20 +103,16 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-wide w3-text-white">SERVICES</span>
+    <span class="w3-xxlarge w3-wide w3-text-white">GET YOUR OWN</span>
   </div>
 </div>
 
-<div class="w3-content w3-container w3-padding-64" id="SERVICES">
-    <h3 class="w3-center">SERVICES</h3>
+<div class="w3-content w3-container w3-padding-64" id="get-your-own">
+    <h3 class="w3-center">GET YOUR OWN</h3>
     <div class="w3-row-padding w3-center">
-      <p>We present the best from the house webshort:</p>
-      <h4>PerrOS</h4>
-      <p>PerrOS, the OS for your Discord Server!</p>
-      <a href="perros.html" class="w3-button"> PerrOS, Start now!</a>
-      <br>
-      <h4>Were over 90% open-source!</h4>
-      <h3><a href="https://github.com/webshort"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>Github</a></h3>
+      <h4>Were completely open-source!</h4>
+      <h4>Just hop over to github and follow the instructions!</h4>
+      <h3><a href="https://github.com/webshort/perros"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>Github</a></h3>
     </div>
 </div>
 
