@@ -1,2 +1,11 @@
 # webshort.uk
-the official webshort website here for you to use to your hearts desire
+Here is the official website for Webshort Solutions, see a live demo here: https://webshort.uk/
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+Webshort is licensed under
+[GPLV3](https://choosealicense.com/licenses/gpl-3.0/)
