@@ -1,5 +1,5 @@
-# webshort.uk
-Here is the official website for Webshort Solutions, see a live demo here: https://webshort.uk/
+# cloudtech.one
+Here is the official website for Cloud Tech, see a live demo here: https://cloudtech.one/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
